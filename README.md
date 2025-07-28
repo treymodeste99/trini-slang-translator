@@ -1,0 +1,1 @@
+# trini-slang-translator
