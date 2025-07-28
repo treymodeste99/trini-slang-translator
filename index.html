@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trini Slang Translator</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #fff3e6; text-align: center; padding: 40px; }
+    h1 { color: #d35400; }
+    textarea { width: 80%; height: 100px; margin: 10px; font-size: 16px; }
+    button { background-color: #d35400; color: white; padding: 10px 20px; font-size: 18px; border: none; cursor: pointer; }
+    button:hover { background-color: #e67e22; }
+    .output { margin-top: 20px; font-size: 20px; color: #2c3e50; }
+  </style>
+</head>
+<body>
+  <h1>🇹🇹 Trini Slang Translator</h1>
+  <p>Type English or Trini slang and get the other side back!</p>
+  <textarea id="inputText" placeholder="Write something..."></textarea><br>
+  <button onclick="translate()">Translate</button>
+  <div class="output" id="outputText"></div>
+
+  <script src="translator.js"></script>
+</body>
+</html>
